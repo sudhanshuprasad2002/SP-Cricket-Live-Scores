@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- ----------------CSS---------------- -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- ----------------CSS---------------- -->
+
+    <!-- ----------------Swipper-CSS---------------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css"
+    />
+    <!-- ----------------Swipper-CSS---------------- -->
+
+    <title>Cricket Live</title>
+  </head>
+
+  <body id="Home" onload="req2();req()">
+    <!-- ----------------Home-Section---------------- -->
+    <div class="main-div">
+      <div class="line" style="height: 100%; background: #fc8d06; width: 60px">
+        <p
+          style="
+            color: #fff;
+            transform: rotate(-90deg);
+            font-size: 3rem;
+            margin-top: 75px;
+            margin-left: 3px;
+          "
+        >
+          SCORE
+        </p>
+      </div>
+      <div class="left-div" style="margin-right: 40px">
+        <h1 id="team1">Team 1</h1>
+        <h1 id="team2">Team 2</h1>
+      </div>
+      <div class="right-div">
+        <h1 id="m1">000/0</h1>
+        <h1 id="m2">000/0</h1>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- ----------------Home-Section---------------- -->
+
+    <!-- ----------------Table-Section---------------- -->
+    <div class="con-1">
+      <div class="column-01-a">
+        <p id="update" style="font-size: 40px; padding-left: 10px">
+          Team 1 Needs 00 runs in 00 balls.
+        </p>
+      </div>
+      <div class="column-02-a">
+        <p id="runrate">RR: 00.00</p>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- Right Section -->
+    <div class="right-div-02">
+      <div class="col-02-part">
+        <p id="partnership" style="text-transform: uppercase">PARTNERSHIP :</p>
+      </div>
+    </div>
+    <!-- Right Section -->
+
+    <!-- Left Section -->
+
+    <!-- new -->
+    <div class="con-1-b-pink">
+      <div class="column-02-b">
+        <table style="text-align: center; width: 100%; height: 55vh">
+          <tr style="background-color: #ff0090; border: none">
+            <td style="text-align: start; font-size: 50px">BATSMAN</td>
+            <td>R</td>
+            <td>B</td>
+            <td>4s</td>
+            <td>6s</td>
+            <td>SR</td>
+          </tr>
+          <tr
+            style="
+              background-image: linear-gradient(
+                to bottom right,
+                #010622,
+                #000a69
+              );
+              border: none;
+            "
+          >
+            <td id="b1" style="text-align: start">Batsman-01</td>
+            <td id="b1r" style="font-size: 30px">00</td>
+            <td id="b1b" style="font-size: 30px">00</td>
+            <td id="b14" style="font-size: 30px">00</td>
+            <td id="b16" style="font-size: 30px">00</td>
+            <td id="b1sr" style="font-size: 30px">00.00</td>
+          </tr>
+          <tr
+            style="
+              background-image: linear-gradient(
+                to bottom right,
+                #010622,
+                #000a69
+              );
+              border: none;
+            "
+          >
+            <td id="b2" style="text-align: start">Batsman-02</td>
+            <td style="font-size: 30px" id="b2r">00</td>
+            <td style="font-size: 30px" id="b2b">00</td>
+            <td style="font-size: 30px" id="b24">00</td>
+            <td style="font-size: 30px" id="b26">00</td>
+            <td style="font-size: 30px" id="b2sr">00.00</td>
+          </tr>
+          <tr style="background-color: #ff0090">
+            <td style="text-align: start; font-size: 50px">BOWLERS</td>
+            <td>O</td>
+            <td>M</td>
+            <td>R</td>
+            <td>W</td>
+            <td>Eco</td>
+          </tr>
+          <tr
+            style="
+              background-image: linear-gradient(
+                to bottom right,
+                #010622,
+                #000a69
+              );
+            "
+          >
+            <td id="bo1" style="text-align: start">Bowlers-01</td>
+            <td style="font-size: 30px" id="bo1o">00</td>
+            <td style="font-size: 30px" id="bo1m">00</td>
+            <td style="font-size: 30px" id="bo1r">00</td>
+            <td style="font-size: 30px" id="bo1w">00</td>
+            <td style="font-size: 30px" id="bo1ec">00.00</td>
+          </tr>
+          <tr
+            style="
+              background-image: linear-gradient(
+                to bottom right,
+                #010622,
+                #000a69
+              );
+              text-align: start;
+            "
+          >
+            <td colspan="6" id="res" style="text-transform: uppercase">
+              RECENT :
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- ----------------Table-Section---------------- -->
+    <script src="script.js "></script>
+  </body>
+</html>

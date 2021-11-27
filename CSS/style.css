@@ -1,0 +1,143 @@
+/* ------------------Google-Fonts------------------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@600&display=swap");
+
+/* ------------------Google-Fonts------------------ */
+
+/* ------------------Adding-Scrolling-Animation------------------ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------------Adding-Scrolling-Animation------------------ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Mohave", sans-serif;
+}
+
+/* -----------------------Home--------------------- */
+
+.main-div {
+  display: flex;
+  height: 25vh;
+  width: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, #010622, #000a69);
+  color: #fff;
+}
+
+.left-div {
+  flex: 50%;
+  margin-left: 3vw;
+}
+
+.right-div {
+  margin-left: 40vw;
+  flex: 50%;
+}
+
+.main-div h1 {
+  font-size: 3.7rem;
+}
+
+.main-div h1 span {
+  font-size: 2rem;
+}
+
+/* -----------------------Home--------------------- */
+
+/* -----------------------Table--------------------- */
+
+.con-1 {
+  display: flex;
+  background-image: linear-gradient(to bottom right, #4e0d0a, #c31c29);
+  height: 8vh;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.column-01-a {
+  flex: 85%;
+}
+
+.column-02-a {
+  flex: 15%;
+}
+
+.column-01 {
+  flex: 50%;
+}
+
+.column-02 {
+  flex: 50%;
+  padding-left: 35%;
+}
+
+.con-1-b-pink {
+  display: flex;
+  height: 8.96vh;
+  font-size: 2.8rem;
+  padding-bottom: 0;
+  width: 75%;
+  color: #fff;
+}
+
+.con-1-b {
+  display: flex;
+  background-image: linear-gradient(to bottom right, #010622, #000a69);
+  color: #fff;
+  height: 11.96vh;
+  font-size: 2.8rem;
+  padding-bottom: 0;
+  margin: 0;
+  width: 75%;
+}
+
+.column-02-b {
+  flex: 50%;
+}
+
+table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  height: 1vh;
+  background: #fff;
+}
+
+/* -----------------------Right-Section--------------------- */
+
+.right-div-02 {
+  display: flex;
+  width: 25%;
+  float: right;
+  background-image: linear-gradient(to bottom right, #010622, #000a69);
+  height: 65vh;
+  margin: 0;
+  border: 4px solid #fff;
+}
+
+.col-02-part {
+  border-bottom: 4px solid #fff;
+  height: 10vh;
+  background-image: linear-gradient(to bottom right, #010622, #000a69);
+  width: 100%;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.col-02-part p {
+  color: white;
+  font-size: 2rem;
+}
+
+/* -----------------------Right-Section--------------------- */
+
+/* -----------------------Table--------------------- */
